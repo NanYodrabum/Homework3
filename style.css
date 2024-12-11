@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-image: url(./pic/background.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    color: white;
+}
+
+.home { 
+    font-size: 18px;
+    margin-left: 80%;
+    margin-top: 10px;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    gap: 20px;
+}
+
+.main h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.main h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.progress {
+    width: 32%; 
+    background-color: #f3f3f3;
+    border-radius: 2px;
+    box-shadow: 7px 9px 7px -4px rgba(18,17,17,0.66);
+}
+
+.progress-bar {
+    height: 18px;
+    width: 75%; 
+    background-color: #93f8f8; 
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+    line-height: 30px; 
+}
+
+.number {
+    display: flex; 
+    justify-content: space-between; 
+    width: 32%;
+    padding: px;
+
+}
+
+.button button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #93f8f8;
+    color: rgb(94, 93, 93);
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.icon i {
+    font-size: 40px;
+    margin: 20px 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+footer {
+    border-top: 1px solid rgb(117, 117, 117);
+    width: 84%;
+    text-align: center;
+    color: rgb(117, 117, 117);
+}
